@@ -12,7 +12,7 @@ let numeroAnterior;
 
 const atualizarDisplay = (texto) => {
     if (novoNumero) {
-        display.textContent = texto;
+        display.textContent = texto.toLocaleString('BR');
         novoNumero = false;
     } else {
         display.textContent += texto;
@@ -27,7 +27,7 @@ const operacaoPendente = () => operador !== undefined;
 
 const calcular = () => {
     if (operacaoPendente()) {
-        const numeroAtual = parseFloat(display.textContent)
+        const numeroAtual = parseFloat(display.textContent.replace(',','.'))
         novoNumero = true;
         const resultado = eval(`${numeroAnterior}${operador}${numeroAtual}`)
         atualizarDisplay(resultado)
@@ -81,7 +81,7 @@ const selecionarOperador = (evento) => {
         calcular();
         novoNumero = true;
         operador = evento.target.textContent;
-        numeroAnterior = parseFloat(display.textContent);
+        numeroAnterior = parseFloat(display.textContent.replace(',','.'));
     }
 }
 
