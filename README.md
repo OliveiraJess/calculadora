@@ -40,7 +40,7 @@
 * Divisão (/)
 * Igual (=)
 * Mais/Menos (±)
-* Inserir vígula (,)
+* Inserir decimal (,)
 * Apagar tudo (C)
 * Limpar a tela (CE)
 * Apagar o último dígito («)
