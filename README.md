@@ -1,17 +1,20 @@
 <h1  align="center">Calculadora</h1>
+
 <div align="center">
-<img src="https://img.shields.io/static/v1?label=Projeto&message=React&color=00BFFF&style=for-the-badge&logo=ghost"/>
+<img src="https://img.shields.io/static/v1?label=Projeto&message=Javascript&color=F1E05A&style=for-the-badge&logo=ghost"/>
 </div>
 
 <div align="center">
 <img height="400px" src="https://github.com/OliveiraJess/calculadora/blob/main/img/calculadora.png" alt="Calculadora" />
 </div>
 
-<p align="center">Nesse projeto foi criado uma calculadora com suas funções de soma, subtração, multiplicação, divisão, igual, mais/menos, inserir vírgula, apagar tudo, limpar a tela e apagar um dígito</p>
+<p align="center">Nesse projeto foi criado uma calculadora com suas respectivas funções.</p>
 
 <h2>🚀 Objetivo</h2>
 
 <p>Feito pra testar meus conhecimentos em Javascript.</p>
+<p>Nele foi utilizado addEventListener para o click e keydown, o forEach como estrutura de repetição, o if e else para verificar as condições e outros comandos como replace, slice, indexOf e parseFloat.</p>
+
 
 <h2>🔧 Instalação</h2>
 
@@ -23,11 +26,13 @@
 
 <h2>⚙️ Utilizando</h2>
 
-<p>Temos as features abaixo: </p>
+<p>A calculadora pega eventos do click do mouse e keydown do teclado, dessa forma, você escolher se quer clicar nos botões da calculadora ou se prefere clicar nos botões do seu teclado.</p>
 
 <div align="center">
 <img height="400px" src="https://github.com/OliveiraJess/calculadora/blob/main/gifCalculadora.gif" alt="Gif do funcionamento da aplicação" />
 </div>
+
+<p>Temos as features abaixo: </p>
 
 * Soma (+)
 * Subtração (-)
@@ -38,7 +43,7 @@
 * Inserir vígula (,)
 * Apagar tudo (C)
 * Limpar a tela (CE)
-* Apagar um dígito («)
+* Apagar o último dígito («)
 
 Deploy na Vercel: <a href="https://calculadora-phi-one.vercel.app/" >Calculadora</a>
 
