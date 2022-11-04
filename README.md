@@ -26,10 +26,10 @@
 
 <h2>⚙️ Utilizando</h2>
 
-<p>A calculadora pega eventos do click do mouse e keydown do teclado, dessa forma, você escolher se quer clicar nos botões da calculadora ou se prefere clicar nos botões do seu teclado.</p>
+<p>A calculadora pega eventos do click do mouse e keydown do teclado, dessa forma, você escolher se quer clicar nos botões da calculadora ou se prefere clicar nos botões do seu teclado como na imagem abaixo.</p>
 
 <div align="center">
-<img height="400px" src="https://github.com/OliveiraJess/calculadora/blob/main/gifCalculadora.gif" alt="Gif do funcionamento da aplicação" />
+<img height="400px" src="https://github.com/OliveiraJess/calculadora/blob/main/img/teclado.png" alt="Como utilizar pelo teclado" />
 </div>
 
 <p>Temos as features abaixo: </p>
@@ -44,6 +44,10 @@
 * Apagar tudo (C)
 * Limpar a tela (CE)
 * Apagar o último dígito («)
+
+<div align="center">
+<img height="400px" src="https://github.com/OliveiraJess/calculadora/blob/main/gifCalculadora.gif" alt="Gif do funcionamento da aplicação" />
+</div>
 
 Deploy na Vercel: <a href="https://calculadora-phi-one.vercel.app/" >Calculadora</a>
 
